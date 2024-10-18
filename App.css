@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(
+            to bottom,
+            rgb(1, 193, 193),
+            rgb(0, 0, 112)
+    );
+    background-size: cover;
+    background-repeat: no-repeat; /* Prevents any accidental repetition */
+    background-position: center; /* Centers the gradient */
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.Main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.TopRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.WeatherLogo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.Bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BottomTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.WeatherDegree {
+    margin: 20px;
+    padding: 10px;
+}
+
+.UnitChanger {
+    width: 50px;
+    background-color: transparent;
+    border-color: rgb(154, 92, 0);
+    border-radius: 30px;
+    color: antiquewhite;
+    font-size: xx-small;
+}
+
+.WeatherStatus {
+    margin: 20px;
+}
